@@ -1,0 +1,111 @@
+
+
+/*******************************************************************************
+
+*                           ToolTips!!!                              *
+
+******************************************************************************/
+
+.tooltip{
+  -fx-background-color: yellow;
+  -fx-text-fill:black;
+  -fx-font-size:90.0%;
+  -fx-effect: dropshadow( three-pass-box, black, 10.0, 0.0, 0.0, 0.0);
+   
+}
+
+
+
+
+
+
+/*******************************************************************************
+
+* CSS Styles for the ContextMenu,Menu,MenuItem,..                                  *
+
+******************************************************************************/
+
+ 
+ .context-menu {
+  	-fx-background-color:linear-gradient(#38424b 0.0%, #1f2429 20.0%, #191d22 100.0%);
+  	-fx-background-radius:4.0;
+ }
+
+ .menu-item {
+ 	-fx-cursor:hand;
+ }
+
+ .menu-item .label{
+ 	-fx-text-fill:white;
+ }
+ 
+ .menu-item:focused {
+ 	-fx-background-color:orange;
+ 	-fx-background-radius:10.0;
+ }
+ 
+ .menu{
+ 	-fx-cursor:hand;
+ }
+ 
+ 
+/*******************************************************************************
+
+* CSS Styles for the Layouts..                                  *
+
+******************************************************************************/
+  .scroll-pane .viewport {
+    -fx-background-color: transparent;
+  }
+
+  .scroll-pane {
+	-fx-background-color:transparent;
+  }
+  
+  
+  .scroll-bar{
+    -fx-background-color: transparent;
+    /*-fx-background-radius:2.0em;*/
+  }
+
+  .scroll-bar:horizontal .increment-arrow {
+  	-fx-background-color: black;
+   -fx-shape: "M 0 0 L 4 8 L 8 0 Z";  
+   -fx-padding: 0.3em;
+   -fx-rotate: -90.0;
+  }
+  
+   .scroll-bar:horizontal .decrement-arrow {
+   -fx-background-color: black;
+   -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+   -fx-padding: 0.3em;
+   -fx-rotate: 90.0;
+  }
+  
+  .scroll-bar:vertical .increment-arrow {
+   -fx-background-color: rgb(211.0,211.0,211.0);
+   -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+   -fx-padding: 0.3em;
+   -fx-rotate: 0.0;
+  }
+  
+  
+  
+  .scroll-bar:vertical .decrement-arrow {
+   -fx-background-color: rgb(211.0,211.0,211.0);
+   -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+   -fx-padding: 0.3em;
+   -fx-rotate: -180.0;
+  }
+
+  .scroll-bar:vertical .increment-button,
+  .scroll-bar:vertical .decrement-button {
+   -fx-background-color:transparent;
+  }
+  
+  .scroll-bar:horizontal .increment-button,
+  .scroll-bar:horizontal .decrement-button {
+   -fx-background-color:transparent;
+  }
+
+
